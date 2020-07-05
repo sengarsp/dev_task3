@@ -18,3 +18,13 @@ spec:
         containers:
           - name: myweb-con
             image: 208011/webserver-php:v1
+            ports:
+            - containerPort: 80
+            volumeMounts:
+            - name: web
+              mountPath: /var/www/html   
+        volumes:
+        - name: web
+          persistentVolumeClaim:
+            claimName: web
+
