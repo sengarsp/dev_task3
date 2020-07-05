@@ -17,4 +17,4 @@ spec:
        spec:
         containers:
           - name: myweb-con
-            image: httpd
+            image: 208011/webserver-php:v1
