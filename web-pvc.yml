@@ -3,7 +3,7 @@ kind: PersistentVolumeClaim
 metadata:
    name: web-pvc1
    labels: 
-     name: webpvc1
+     name: web-pvc1
 spec:
    accessModes:
     - ReadWriteOnce
