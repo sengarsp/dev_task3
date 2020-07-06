@@ -45,5 +45,6 @@ notes: all the images are in above
  2) Kubernetes installed by minikube and also running in RHEL 8
  3) Git & GitHub
  4) Jenkins
-
+# Author
+ Shyamendra Sengar
 
